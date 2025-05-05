@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration/Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Register or Login</h2>
+        <form id="authForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <div class="g-recaptcha" data-sitekey="6LfgYC4rAAAAAPY10-MQt-JaGi4_FjXqKrHfIaeG"></div>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+    
